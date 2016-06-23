@@ -50,3 +50,7 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  # helps Heroku to serve assets
+  gem 'rails_12factor'
+end
