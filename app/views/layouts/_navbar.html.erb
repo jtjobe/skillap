@@ -1,0 +1,12 @@
+<div class="navbar">
+  <%= image_tag('logo', class: 'nav-logo') %>
+
+  <div class="right-links">
+    <%= link_to new_user_session_path do %> 
+      <button class="sign-in-btn">Sign In</button>
+    <% end %>
+    <%= link_to new_user_registration_path do %>
+      <button class="sign-up-btn">Sign Up</button>
+    <% end %>
+  </div>
+</div>
