@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  skiller_id: 
+  notes: MyText
+  skill_level: 1
+
+two:
+  skiller_id: 
+  notes: MyText
+  skill_level: 1

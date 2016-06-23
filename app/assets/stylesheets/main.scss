@@ -1,0 +1,53 @@
+* {
+  font-family: 'Abel';
+  .logo {
+    font-family: 'Alfa Slab One';
+  }
+}
+
+.home-main {
+  text-align: center;
+  
+  // Top CTA Section
+  .cta {
+
+    .center-logo {
+      margin-top: 10em;
+    }
+    
+    button {
+      font-size: 3em;
+      margin-top: 1em;
+      padding: 0.3em 2em;
+      border: none;
+      background-color: #787878;
+      color: #fff;
+      font-weight: 900;
+      &:hover {
+        background-color: #a1a1a1;
+      }
+    }
+  }
+
+  // Bottom About Skillap Section
+  .about {
+    margin-bottom: 3em;
+
+    .header {
+      margin-top: 3em;
+      font-weight: 900;
+    }
+    
+    .section-title {
+      margin-top: 2em;
+    }
+
+    p {
+      font-size: 1.7em;
+      max-width: 30em;
+      margin: auto;
+    }
+
+  }
+
+}

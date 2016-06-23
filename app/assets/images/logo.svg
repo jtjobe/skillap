@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="270px" height="140px" viewBox="0 0 270 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Skillap + Oval 1 + Oval 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Tablet-Portrait" sketch:type="MSArtboardGroup" transform="translate(-161.000000, -351.000000)">
+            <g id="Skillap-+-Oval-1-+-Oval-1-Copy" sketch:type="MSLayerGroup" transform="translate(162.000000, 352.000000)">
+                <text id="Skillap" sketch:type="MSTextLayer" font-family="Alfa Slab One" font-size="72" font-weight="normal" fill="#000000">
+                    <tspan x="4" y="123">Skillap</tspan>
+                </text>
+                <path d="M25,50 C38.8071187,50 50,38.8071187 50,25 C50,11.1928813 38.8071187,0 25,0 C11.1928813,0 0,11.1928813 0,25 C0,38.8071187 11.1928813,50 25,50 Z M131,50 C144.807119,50 156,38.8071187 156,25 C156,11.1928813 144.807119,0 131,0 C117.192881,0 106,11.1928813 106,25 C106,38.8071187 117.192881,50 131,50 Z M239,50 C252.807119,50 264,38.8071187 264,25 C264,11.1928813 252.807119,0 239,0 C225.192881,0 214,11.1928813 214,25 C214,38.8071187 225.192881,50 239,50 Z" id="Oval-1" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M78,50 C91.8071187,50 103,38.8071187 103,25 C103,11.1928813 91.8071187,0 78,0 C64.1928813,0 53,11.1928813 53,25 C53,38.8071187 64.1928813,50 78,50 Z M184,50 C197.807119,50 209,38.8071187 209,25 C209,11.1928813 197.807119,0 184,0 C170.192881,0 159,11.1928813 159,25 C159,38.8071187 170.192881,50 184,50 Z" id="Oval-1-Copy" fill="#787878" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

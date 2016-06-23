@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @skiller.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @skiller.last_name %>
+</p>
+
+<p>
+  <strong>Social link 1:</strong>
+  <%= @skiller.social_link_1 %>
+</p>
+
+<p>
+  <strong>Social link 2:</strong>
+  <%= @skiller.social_link_2 %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @skiller.location %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @skiller.bio %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @skiller.user %>
+</p>
+
+<%= link_to 'Edit', edit_skiller_path(@skiller) %> |
+<%= link_to 'Back', skillers_path %>
