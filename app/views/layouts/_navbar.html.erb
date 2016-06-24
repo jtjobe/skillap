@@ -2,11 +2,17 @@
   <%= image_tag('logo', class: 'nav-logo') %>
 
   <div class="right-links">
-    <%= link_to new_user_session_path do %> 
-      <button class="sign-in-btn">Sign In</button>
-    <% end %>
-    <%= link_to new_user_registration_path do %>
-      <button class="sign-up-btn">Sign Up</button>
+    <% if current_user %>
+      <%= link_to destroy_user_session_path, method: :delete do %>
+        <button class="sign-in-btn">Sign Out</button>
+      <% end %>
+    <% else %>
+      <%= link_to new_user_session_path do %> 
+        <button class="sign-in-btn">Sign In</button>
+      <% end %>
+      <%= link_to new_user_registration_path do %>
+        <button class="sign-up-btn">Sign Up</button>
+      <% end %>
     <% end %>
   </div>
 </div>

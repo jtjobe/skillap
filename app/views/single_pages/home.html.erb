@@ -1,16 +1,55 @@
-<div class="home-main">
-  <%= image_tag('logo', class: 'center-logo') %>
+<div class="row">
+  <div class="col-md-4 col-md-offset-4 col-small-12">
+    <h1 class="center">Check out an example profile below...</h1>
 
-  <div class="welcome">
-    <h1>You and your community.</br>Knowledge through one-on-one sharing.</br>Nothing else.</h1>
-  </div>
-  
-  <div class="about">
-    <h1 class="header">About Skillap</h1>
-    <h2 class="section-title">SHARING FOR MUTUAL BENEFIT</h2>
-    <p>Members tag skills they can share and skills they want to learn. When two members skills align for a shared benefit, they are encouraged to chat and see if they’d like to meet - in-person or via webcam - to learn from each other. No payments allowed, skills are the only currency here.</p>
-    <h2 class="section-title">BEGINNERS TO EXPERTS</h2>
-    <p>And you don’t have to be an expert to help someone else learn.  We encourage our members to list many skills, even if it’s a new one or you’re just a beginner. We can all help others in many areas where we know even just a little more than they do.</p>
+    <div class="profile">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>John</h1>
+          <h3>New York, NY</h3>
+          <h4>Locally, via Webcam</h4>
+        </div>
+        <div class="col-sm-6">
+          <%= image_tag('small-square.png', class: 'profile-pic') %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="bio">“I like to code and play music. Let’s exchange some skills.”</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="skills-section">
+            <h3>Skills Offered</h3>
+            <p>Guitar</p>
+            <p>Banjo</p>
+            <p>Web Development</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="skills-section">
+            <h3>Skills Wanted</h3>
+            <p>Woodworking</p>
+            <p>SAAS Sales</p>
+            <p>Public Speaking</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <button class="message">Message Now</button>
+          <button class="save">Save for Later</button>
+          <button class="next">Next</button>
+        </div>
+      </div>
+    </div>
+
+
+    <h1 class="center">Ready to make your own?</h1>
+    <button id="ready">I'm Ready</button>
 
   </div>
 </div>
